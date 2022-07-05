@@ -9,3 +9,8 @@ it("when a & b is string ", () => {
   const result = sum("1", "2");
   expect(result).toBe(3);
 });
+
+it("when  a is string and b is not ", () => {
+  const result = sum(1, 2);
+  expect(result).toBe(3);
+});
